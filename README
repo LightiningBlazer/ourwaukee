@@ -1,1 +1,23 @@
-Ourwaukee Website.
+# WordPress Website Backup
+
+This repository contains the codebase of a WordPress website originally hosted on [Bluehost](https://www.bluehost.com). It includes core WordPress files, custom themes, and plugins — excluding sensitive configurations and large assets like uploads or backups.
+
+## 📦 Contents
+
+- WordPress core files
+- `wp-content/themes/your-custom-theme/`
+- `wp-content/plugins/your-custom-plugin/`
+- `/database/your-database.sql` (optional)
+- `.gitignore` file for WordPress-specific exclusions
+
+## 🚫 Not Included
+
+- `wp-config.php` (contains database credentials)
+- `wp-content/uploads/` (media library)
+- Caches, logs, and backups
+
+## 🔄 How to Use
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
